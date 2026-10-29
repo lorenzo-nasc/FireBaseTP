@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema do app -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryVariant">@color/azul_escuro</item>
+        <item name="colorSecondary">@color/laranja</item>
+    </style>
+
+    <!-- Tema da tela do FirebaseUI (precisa herdar de "FirebaseUI") -->
+    <style name="Theme.LoginFirebase" parent="FirebaseUI">
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul_escuro</item>
+        <item name="colorAccent">@color/laranja</item>
+    </style>
+</resources>
